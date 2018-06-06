@@ -1,0 +1,147 @@
+.flag{
+	position:relative;
+	width:500px;
+	height:300px;
+	left: 200px;
+	top: 200px;
+	padding:100px;
+}
+
+
+.panel{
+	height:100%;   /*will take 100% of the height of its container*/
+	width:166.6px;     /*or you can set it to 33% and it'll be 33% of the .flag width*/
+	background:green;
+	position:relative; /* changing to "absolute" will make the shapes not care about each other, but only about the container they're in. So they'll stack on top of each other.*/
+	float:left;
+	/*(add position:absolute to here to take the same shape that we just made and move it somewhere else... the top left corner)*/
+}
+
+
+
+#white{
+	background-color:white;
+}
+
+#red{
+	background-color:red;
+	/*if you delete the white panel, make the .panel position absolute, then set left:66%; it'll still look the same*/
+
+}
+
+
+
+.flagUSA{
+	position:relative;
+	width:500px;
+	height:300px;
+	left: 200px;
+	top: 200px;
+	margin-bottom:200px;
+}
+
+
+.flagUSA .panel{
+	position:relative;
+	height:7.692%;
+	width:100%;
+	background-color:green;
+
+}
+
+#redUSA{
+	background-color:red;
+}
+
+#whiteUSA{
+	background-color:white;
+}
+
+
+.blueUSA{
+	background-color:blue;
+	width:40%;
+	height:53.5%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;     /*sticks things in numerical order*/
+
+
+}
+
+
+
+
+
+
+#vertical{
+	position:absolute;
+	background-color:white;
+	height:300px;
+	width:6%;
+	left:250px;
+	top:20%;
+
+}
+
+
+
+#horizontal{
+	position:absolute;
+	background-color:white;
+	height:40px;
+	top:225px;
+	left:100px;
+	width:500px;
+}
+
+
+
+.panel2{
+	background-color:white;
+	width:500px;
+	height:300px;
+	left: 200px;
+	top: 200px;
+
+}
+
+
+
+#whitepart{
+	background-color:red;
+}
+
+
+.flag3{
+	background-color:black;
+	position:relative;
+	width:500px;
+	height:300px;
+	left: 200px;
+	top: 200px;
+	right:200px;
+	padding:100px;
+	margin-right: 100px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
