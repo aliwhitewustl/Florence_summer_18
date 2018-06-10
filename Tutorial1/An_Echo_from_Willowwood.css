@@ -1,72 +1,246 @@
+	
+
+/*
+
+.box{
+	background-color:white;
+	width: 100px;
+	height:100px;
+	top:300px;
+	left:300px;
+	position:absolute;
+}
+
+*/
+
+
+
+
 	.all{
-		margin-left:25%;
+/*		margin-left:25%;
 		margin-right:25%;
 		margin-top:10%;
-	}
+		margin-bottom:10%;
+		border:2px solid white;*/
 
-
-	h1{
-		color:white
-		font-size:20px;
-		text-indent:50px;
+	/*
+		margin-left:400px;
+		width:400px;
+		margin-top:150px;
+		height:700px;
+		margin-bottom:150px;*/
 		
+
+
+
 	}
+
 	
 
-	p{
-		color:white
-	}
 
-
-
-	.lyrics{
-		padding-left:15%;
-	}
-	
 
 	body {
 		background-image: url(http://78.media.tumblr.com/feffcb6ddd6ab034fd0b6c399e36c620/tumblr_oi1th4HDli1qa6y0bo1_1280.jpg)
 	}
 
-	
 
 
-	.header{
+	#title{
+	/*	font-family: 'Cormorant', serif;
+		font-style: italic;
+		font-size:50px;
+		color:white;
+		padding-left:80px;
+		padding-top:15%;*/
+
+
+		font-family: serif;
+		font-style: bold-italic;
+		font-size:50px;
+		color:white;
+		position:absolute;
+		top:380px;
+		left:400px;
+		padding-top:0;
+		padding-bottom:10%;
+		}
+
+		
+/*		
+	#title2{
+		font-family: serif;
+		font-style: italic;
+		color:red;
+		position:absolute;
+		font-size:50px;
+		top:380px;
+		left:400px;	
+		opacity:0;
+		}*/
+
+
+	#title3{
+		font-family: serif;
 		font-style: italic;
 		color:white;
-		text-indent:50px;
-		border:3px solid white;
-		float:left;
-		padding:50px;
-		top:100px;
+		position:absolute;
+		font-size:30px;
+		top:250px;
+		left:900px;	
+		opacity:0;
+	}
+
+	#title4{
+		font-family: serif;
+		font-style: italic;
+		color:white;
+		position:absolute;
+		font-size:100px;
+		top:70px;
+		right:150px;
+		opacity:0;	
+	}
+
+/*	#title5{
+		font-family: serif;
+		font-style: italic;
+		color:white;
+		position:absolute;
+		font-size:600px;
+		top:0px;
+		right:300px;
+		opacity:0;	
+	}
+*/
+/*
+	#title6{
+		font-family: serif;
+		font-style: italic;
+		color:white;
+		position:absolute;
+		font-size:350px;
+		top:380px;
+		right:200px;
+		opacity:0;	
+	}*/
+
+
+
+
+
+/*TO ANIMATE 
+
+transition:background-color 4s;      for hover states etc 
+-webkit-transition:background-color 4s;    <--(for older versions of safari so things still run)
+transition-timing-function:ease-in-out;
+
+
+OR 
+
+
+animation-name:textChange;      for general animations
+animation-duration:3s;
+animation-iteration-count:infinite;
+animation-delay:5s;
+
+
+	}
+
+
+@keyframes textChange{
+	0% {background-color:white;width:500px;}
+	100% {background-color:black;width:300px;}*/
+
+/*}
+
+
+
+GIVE IT ITS FINAL RESTING POINT HERE
+
+		#title:hover{
+			color:#e7e7e7;*/
+
+
+	
+
+
+
+
+	.lyricsandintro{
+		position:absolute;
+		border:2px solid white;
+		padding-top:10%;
+		padding-left:12%;
+		padding-right:10%;
+		margin-left:400px;
+		width:400px;
+		margin-top:450px;
+		height:700px;
+		margin-bottom:100px;
+		opacity:0;
 	}
 
 	
-	.firsttwolines{
+	#firsttwolines{
+/*		font-family: 'Unna', serif;
 		color:white;
+		font-size:16px;
 		font-style:italic;
-		font-size:18px;
+		padding-left:10%;
+		padding-right:10%;*/
+
+		font-family: 'Montserrat', sans-serif;
+		color:white;
+		font-size:20px;
+/*		padding-left:170px;
+		padding-right:10%;
+		padding-top:30px;*/
+		padding-bottom:80px;
+
+
 	}
 
 
-	/*to make all links appear a certain way...*/
+	#lyrics{
+		font-family:serif;
+		color:white;
+		font-size:18px;
+		font-style:italic;
+		position:center;
+/*		padding-left:170px;
+		padding-right:100px;*/
+		padding-bottom:25px;
+		text-indent: 15px
+		color:white;
+	}
+	
+
+
+
+
+
+
+
+
+/*to make all links appear a certain way...*/
+
 	a{
-		font-family:sans-serif;
+		color:white;
+		font-style:italic;
 		text-decoration:none;
-		color:none;
-		display:inline-block;
+		transition:background-color 4s;
+		-webkit-transition:background-color 4s;    /*  (for older versions of safari so things still run)*/
 	}
 	
 	a:hover{
-		font-family:sans-serif;
 		text-decoration:none;
-		color:blue;
+		color:#e7e7e7;
+		opacity:0.45;
+
 	}
 
 	a:visited{
-		font-family:sans-serif;
 		text-decoration:none;
-		color:gray;
 	}
 
 /*
@@ -94,3 +268,21 @@ absolute positioning: part of page, like it's glued down to a piece of paper */
 
 /*
 	use command-backslash to be able to write instructions in plain english */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
