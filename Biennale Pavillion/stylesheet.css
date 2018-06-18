@@ -1,0 +1,461 @@
+
+
+
+	.topbanner{
+	position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    height: 10%;
+		
+	}
+
+			#bannertext{
+				font-size:4rem;
+				width:100%;
+				font-family: 'Barlow', sans-serif;
+				color:gray;
+				margin-left:7%;
+			}
+
+
+/*-------------------------------------------------------------------*/
+
+
+
+.section1{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+
+
+	.infrastructure{
+		position:absolute;
+		left:0px;
+		top:0px;
+		width:33.3%;
+		height:100%;
+		background-color:gray;
+		overflow:hidden;
+	}
+
+		#infrastructureimage{
+			top:0px;
+			left:0px;
+			height:100%;
+			width:100%;
+			position:absolute;
+		}
+
+		#infrastructureimage img{
+			height:100%;
+		}
+
+		#infrastructureicon{
+			position:absolute;
+			width:50%;
+			z-index:10;
+			margin-left:25%;
+			margin-right:25%;
+			margin-top:60%;
+			opacity:0.75;
+		}
+
+		#infrastructureicon img{
+			width:100%;
+			height:auto;
+		}
+
+		#inftextappear{
+			position:absolute;
+			padding-top:117%;
+			padding-left:20%;
+			font-size:30px;
+			font-family: 'Barlow', sans-serif;
+			color:white;
+			opacity:0;
+
+
+		}
+
+
+	.garden{
+		background-color:green;
+		position:absolute;
+		top:0px;
+		left:33.3%;
+		width:33.3%;
+		height:100%;
+		overflow:hidden;
+	}
+
+		#gardenimage{
+			position:absolute;
+			left:0px;
+			top:0px;
+			height:100%;
+		}
+
+ 
+ 		#gardenimage img{
+			height:100%;
+			left:-300px;
+		}
+
+		#gardenicon{
+			position:absolute;
+			width:50%;
+			z-index:10;
+			margin-left:25%;
+			margin-right:25%;
+			margin-top:60%;
+			opacity:0.75;
+
+		}
+		
+		#gardenicon img{
+			height:auto;
+			width:100%;
+		}
+
+
+		#gartextappear{
+			position:absolute;
+			padding-top:117%;
+			padding-left:35%;
+			font-size:30px;
+			font-family: 'Barlow', sans-serif;
+			color:white;
+			opacity:0;
+		}
+
+
+	.government{
+		background-color:red;
+		position:absolute;
+		left:66.6%;
+		height:100%;
+		width:33.3%;
+		overflow:hidden;
+		top:0px;
+	}
+
+		#governmentimage{
+			position:absolute;
+			top:0px;
+			left:0px;
+			height:100%;
+		}
+
+		#governmentimage img{
+			margin-left:-700px;
+			height:100%;
+		}
+
+		#governmenticon{
+			position:absolute;
+			width:50%;
+			margin-left:25%;
+			margin-right:25%;
+			margin-top:60%;
+			opacity:0.75;
+		}
+
+		#governmenticon img{
+			width:100%;
+			height:auto;
+		}
+
+
+		#govtextappear{
+			position:absolute;
+			padding-top:117%;
+			padding-left:21%;
+			font-size:30px;
+			font-family: 'Barlow', sans-serif;
+			color:white;
+			text-align:center;
+			opacity:0;
+		}
+
+
+/*______________________________________________________________*/
+
+
+
+	.separator{
+		position:absolute;
+		background-color:white;
+		width:100%;
+		height:90%;
+		top:110%;
+	}
+
+
+		#generalinfotitle{
+			font-size:3rem;
+				width:100%;
+				font-family: 'Barlow', sans-serif;
+				color:#af5959;
+				margin-left:20%;
+				margin-top:10%;
+
+		}
+
+		#generalinfotitle2{
+			font-size:2rem;
+				width:100%;
+				font-family: 'Barlow', sans-serif;
+				color:#af5959;
+				margin-left:20%;
+		}
+		
+		#generalinfo{
+			font-size:20px;
+			padding-right:20%;
+			padding-left:20%;
+			padding-bottom:30%;
+			font-family: 'Barlow', sans-serif;
+			color:gray;
+
+		}
+
+
+/*______________________________________________________________*/
+
+
+
+.section3{
+position:absolute;
+top:200%;
+width:100%;
+height:100%;
+
+}
+
+
+
+	.infrastructuresection{
+		position:relative;
+		background-color:#f4f8ff;
+		width:100%;
+		height:300%;
+	}
+			#infratitle1{
+				font-size:300px;
+				left:-10px;
+				padding-top: 10%;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+			#infratitle2{
+				position:absolute;
+				top:12%;
+				font-size:300px;
+				padding-right:20%;
+				padding-bottom:2%;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+
+			#infrapar1{
+				font-size:20px;
+				padding-right:25%;
+				padding-left:5%;
+				padding-bottom:30%;
+				padding-top:15%;
+				font-family: 'Barlow', sans-serif;
+			}
+
+			#infrapar2{
+				font-size:40px;
+				padding-top:10%;
+				padding-right:20%;
+				padding-left:20%;
+				padding-bottom:30%;
+				font-family: 'Barlow', sans-serif;
+				color:gray;
+			}
+
+		#click{
+			position:absolute;
+			font-size:40px;
+				padding-top:0%;
+				padding-right:20%;
+				padding-left:5%;
+				padding-bottom:30%;
+				font-family: 'Barlow', sans-serif;
+				color:gray;
+		}
+
+		.destruction{
+			top:0px;
+			width:100%;
+			overflow:hidden;
+		}
+			
+
+			#d1{
+				position:absolute;
+				width:100%;
+				top:40%;
+				z-index:7;
+			}
+
+
+			#d2{
+				position:absolute;
+				top:40%;
+				z-index:6;
+				width:100%;
+			}
+			
+
+			#d3{
+				position:absolute;
+				top:40%;
+				width:100%;
+				z-index:5;
+			}
+
+			#d4{
+				position:absolute;
+				top:40%;
+				width:100%;
+				z-index:4;
+			}
+
+			#d5{
+				position:absolute;
+				top:40%;
+				z-index:3;
+			}
+
+
+	.gardensection{
+		position:relative;
+		background-color:#f0ffef;
+		width:100%;
+		height:220%;
+	}
+
+			#gartitle1{
+				position:absolute;
+				font-size:300px;
+				padding-top: 10%;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+			#gartitle2{
+				position:absolute;
+				padding-top:22%;
+				font-size:300px;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+			#garpar1{
+				font-size:20px;
+				padding-right:25%;
+				padding-left:5%;
+				padding-bottom:30%;
+				padding-top:50%;
+				font-family: 'Barlow', sans-serif;
+			}
+
+			#garimage{
+				position:absolute;
+				top:60%;
+				bottom:20%;
+			}
+
+
+
+
+
+	.govsection{
+		position:relative;
+		background-color:#ffefef;
+		width:100%;
+		height:270%;
+	}
+
+
+			#govtitle1{
+				position:absolute;
+				font-size:250px;
+				padding-top: 10%;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+			#govtitle2{
+				position:absolute;
+				padding-top:19%;
+				font-size:250px;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+			#govtitle3{
+				position:absolute;
+				font-size:250px;
+				padding-top:27%;
+				font-family: 'Patua One', cursive;
+				color:#af5959;
+			}
+
+			#govpar1{
+				font-size:20px;
+				padding-right:25%;
+				padding-left:5%;
+				padding-bottom:30%;
+				padding-top:50%;
+				font-family: 'Barlow', sans-serif;
+			}
+
+			.govhouseimages{
+				position:absolute;
+				top:45%;
+
+			}
+
+
+				#g2{
+					z-index:15;
+					position:absolute;
+				}
+				
+
+				#g1{
+					position:absolute;
+					padding-top:0%;
+					z-index:13;
+					width:100%;
+				}
+				
+
+				#g3{
+					z-index:14;
+					position:absolute;
+					height:500px;
+				}
+
+	
+
+			#govpar2{
+				font-size:20px;
+				padding-right:25%;
+				padding-left:5%;
+				padding-bottom:30%;
+				padding-top:0%;
+				font-family: 'Barlow', sans-serif;
+			}
+
+
+
+

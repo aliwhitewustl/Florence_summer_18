@@ -39,9 +39,9 @@ $("#title").mouseenter(function(){
 
 $("#title3").mouseenter(function(){
 		$(this).fadeTo( "slow", 0 );
-		$("#title4").fadeTo("slow", 1);
+		$("#title4").delay(1000).fadeTo(500, 1);
 		$("#title4").fadeTo("slow", 0);
-		$("#title5").fadeTo("slow", 1);
+		$("#title5").delay(2000).fadeTo(500, 1);
 		$("#title5").fadeTo("slow", 0);
 		$(".lyricsandintro").fadeTo( "slow", 1);
 

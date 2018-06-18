@@ -29,7 +29,7 @@
 		margin-top:150px;
 		height:700px;
 		margin-bottom:150px;*/
-		
+	
 
 
 
@@ -40,7 +40,10 @@
 
 
 	body {
-		background-image: url(http://78.media.tumblr.com/feffcb6ddd6ab034fd0b6c399e36c620/tumblr_oi1th4HDli1qa6y0bo1_1280.jpg)
+		background-image: url(http://78.media.tumblr.com/feffcb6ddd6ab034fd0b6c399e36c620/tumblr_oi1th4HDli1qa6y0bo1_1280.jpg);
+		width:100%;
+
+
 	}
 
 
