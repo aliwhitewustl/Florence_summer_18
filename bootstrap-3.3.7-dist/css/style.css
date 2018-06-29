@@ -1,0 +1,23 @@
+.row{
+	position:relative;
+	width:100%;
+	height:500px;
+	background-color:red;
+}
+
+#black{
+	background-color:black;
+}
+
+.element{
+	height:100%;
+}
+
+
+#blue{
+	background-color:blue;
+}
+
+#green{
+	background-color:green;
+}
