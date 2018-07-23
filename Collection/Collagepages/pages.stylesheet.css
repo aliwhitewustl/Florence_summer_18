@@ -1,0 +1,117 @@
+.imagetemplate{
+	position:absolute;
+	margin-top:50px;
+	margin-left:100px;
+	margin-bottom:100px;
+	margin-right:100px;
+	top:0px;
+	left:0px;
+	height:800px;
+	width:auto;
+	z-index:10;
+}
+
+	.imagetemplate img{
+		height:100%;
+		width:auto;
+	}
+
+
+
+	.gimage{
+		position:absolute;
+		margin-top:50px;
+		margin-left:100px;
+		margin-bottom:100px;
+		margin-right:100px;
+		top:0px;
+		left:0px;
+		height:800px;
+		width:auto;
+		z-index:1;
+		overflow:hidden;
+	}
+
+		.gimage img{
+			height:800px;
+			width:auto;
+		}
+
+
+
+.title{
+	position:absolute;
+	top:300px;
+	left:800px;
+	font-family: 'Karla', sans-serif;
+	font-size:50px;
+	color:#898989;
+	font-weight:700;
+}
+
+.location{
+	position:absolute;
+	top:380px;
+	left:800px;
+	font-family: 'Karla', sans-serif;
+	font-size:20px;
+	color:#898989;
+	font-weight:700;
+}
+
+.locationinfo{
+	position:absolute;
+	top:380px;
+	left:900px;
+	font-family: 'Karla', sans-serif;
+	font-size:20px;
+	color:#bcbcbc;
+}
+
+.materials{
+	position:absolute;
+	top:410px;
+	left:800px;
+	font-family: 'Karla', sans-serif;
+	font-size:20px;
+	color:#898989;
+	font-weight:700;
+}
+
+.materialsinfo{
+	position:absolute;
+	top:410px;
+	left:910px;
+	font-family: 'Karla', sans-serif;
+	font-size:20px;
+	color:#bcbcbc;
+}
+
+.otherstuff{
+	position:absolute;
+	top:440px;
+	left:800px;
+	font-family: 'Karla', sans-serif;
+	font-size:20px;
+	color:#898989;
+	font-weight:700;
+}
+
+.journalentry{
+	position:absolute;
+	top:490px;
+	left:800px;
+	font-family: 'Karla', sans-serif;
+	font-size:18px;
+	color:#bcbcbc;
+	width:600px;
+	height:300px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
