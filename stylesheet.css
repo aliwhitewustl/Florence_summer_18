@@ -1,0 +1,1300 @@
+
+
+/*------------------------------------LANDING-------------------------------------*/
+
+#landpage{
+	background-color:white;
+	top:0px;
+	left:0px;
+}
+
+#scraps{
+	position:absolute;
+	z-index:10;
+	font-size:175px;
+	font-family: 'Shrikhand', cursive;
+	top:250px;
+	left:440px;
+}
+
+
+.enterbutton{
+	position:absolute;
+	top:550px;
+	left:735px;
+	height:75px;
+	width:125px;
+	background-color:#bcbcbc;
+}
+
+.enter{
+	position:absolute;
+	color:white;
+	font-size:30px;
+	top:550px;
+	left:735px;
+	height:75px;
+	width:125px;
+}
+
+.enter:hover{
+	text-decoration:none;
+}
+
+a{
+	color:white;
+}
+
+
+
+
+#scrap1{
+	position:absolute;
+	z-index:20;
+	top:100px;
+	left:100px;
+	height:600px;
+	width:auto;
+}
+	#scrap1 img{
+		height:100%;
+		width:auto;
+	}
+
+
+#scrap2{
+	position:absolute;
+	z-index:21;
+	top:200px;
+	left:800px;
+	height:450px;
+	width:auto;
+}
+	#scrap2 img{
+		height:100%;
+		width:auto;
+	}
+
+
+#scrap3{
+	position:absolute;
+	z-index:22;
+	top:370px;
+	left:400px;
+	height:350px;
+	width:auto;
+}
+	#scrap3 img{
+		height:100%;
+		width:auto;
+	}
+
+
+
+#scrap4{
+	position:absolute;
+	z-index:23;
+	top:150px;
+	left:670px;
+	height:600px;
+	width:auto;
+}
+	#scrap4 img{
+		height:100%;
+		width:auto;
+	}
+
+
+#scrap5{
+	position:absolute;
+	z-index:24;
+	top:150px;
+	left:490px;
+	height:470px;
+	width:auto;
+}
+	#scrap5 img{
+		height:100%;
+		width:auto;
+	}
+
+
+#scrap6{
+	position:absolute;
+	z-index:19;
+	top:350px;
+	left:580px;
+	height:380px;
+	width:auto;
+}
+	#scrap6 img{
+		height:100%;
+		width:auto;
+	}
+
+/*------------------------------------LANDING-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+	
+
+/*------------------------------------GRID-------------------------------------*/
+
+
+
+
+.topbar{
+		position:absolute;
+		top:0px;
+		left:0px;
+		height:75px;
+		width:100%;
+		background-color:#bcbcbc;
+		z-index:50;
+}
+
+
+			.topbaricons{
+				position:absolute;
+				width:55px;
+				height:55px;
+				left:20px;
+				top:12px;
+				z-index:52;;
+		}
+
+
+				#gridicon{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:0px;
+					left:100px;
+					opacity:0.7;
+				}		
+				#gridicon img{
+					width:90%;
+					height:auto;
+				}
+
+				
+
+
+				#timelineicon{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:10px;
+					opacity:0.7;
+					left:1100px;
+				}		
+				#timelineicon img{
+					width:90%;
+					height:auto;
+				}
+
+
+
+
+				#worldicon{
+					position:absolute;
+					width:90%;
+					height:100%;
+					top:0px;
+					left:1300px;
+					opacity:0.7;
+				}		
+				#worldicon img{
+					width:100%;
+					height:auto;
+				}
+
+
+
+
+
+
+
+.gridrows{
+	position:relative;
+	float:left;
+	width:100%;
+	height:140px;
+	top:75px;
+	z-index:10;
+
+}
+
+#grid1{
+	position:relative;
+	height:100%;
+	width:140px;
+	top:0px;
+	background-color:red;
+	overflow:hidden;
+	float:left;
+}
+		#grid1 img{
+			width:300%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid2{
+	position:relative;
+	height:100%;
+	width:140px;
+	top:0px;
+	left:0px;
+	background-color:blue;
+	float:left;
+}
+	#grid2 img{
+			width:200%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid3{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:green;
+	float:left;
+}
+	#grid3 img{
+			width:200%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid4{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:yellow;
+	float:left;
+}
+	#grid4 img{
+			width:200%;
+			height:auto;
+			top:-500px;
+		}
+
+#grid5{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:orange;
+	float:left;
+}
+	#grid5 img{
+			width:200%;
+			height:auto;
+			bottom:140px;
+		}
+
+#grid6{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+	#grid6 img{
+			width:200%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid7{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+	#grid7 img{
+			width:200%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid8{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+	#grid8 img{
+			width:100%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid9{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+	#grid9 img{
+			width:100%;
+			height:auto;
+			top:-200px;
+		}
+
+#grid10{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+#grid11{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+#grid12{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid13{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid14{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid15{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid16{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid17{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid18{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid19{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid20{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid21{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid22{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid23{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid24{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid25{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid26{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid27{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid28{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid29{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+
+#grid30{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid31{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid32{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid33{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid34{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid35{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid36{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid37{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid38{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid40{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid41{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid42{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+
+#grid43{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid44{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid45{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid46{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid47{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+
+#grid48{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid49{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid50{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid51{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid52{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid53{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid54{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid55{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid56{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid57{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid58{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid59{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+
+#grid60{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid61{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid62{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid63{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid64{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid65{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid66{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid67{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid68{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+#grid69{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+
+#grid70{
+	position:relative;
+	height:100%;
+	width:140px;
+	background-color:magenta;
+	float:left;
+}
+
+
+/*------------------------------------GRID-------------------------------------*/
+
+
+
+
+
+
+
+
+/*------------------------------------TIMELINE-------------------------------------*/
+
+
+
+	.topbartimeline{
+		position:fixed;
+		top:0px;
+		left:0px;
+		height:75px;
+		width:100%;
+		background-color:#bcbcbc;
+		z-index:50;
+}
+
+		.topbaricons{
+				position:fixed;
+				width:55px;
+				height:55px;
+				left:20px;
+				top:12px;
+				z-index:52;
+			}
+
+
+
+				#gridiconT{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:0px;
+					left:100px;
+					opacity:0.7;
+				}	
+				#gridiconT img{
+					width:90%;
+					height:auto;
+				}
+
+				
+
+				#timelineiconT2{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:10px;
+					opacity:1;
+					left:300px;
+				}		
+				
+				#timelineiconT2 img{
+					width:90%;
+					height:auto;
+				}
+
+
+
+				#timelineiconT{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:10px;
+					opacity:1;
+					left:300px;
+				}		
+				#timelineiconT img{
+					width:90%;
+					height:auto;
+				}
+
+
+
+
+				#worldiconT{
+					position:absolute;
+					width:90%;
+					height:100%;
+					top:0px;
+					left:1300px;
+					opacity:0.7;
+				}		
+				#worldiconT img{
+					width:100%;
+					height:auto;
+				}
+
+
+
+
+
+
+
+
+
+.scrollarea{
+	position:absolute;
+	top:150px;
+	left:100px;
+	width:90%;
+	height:600px;
+	overflow:auto;
+	/*overflow-x: scroll;
+  	overflow-y: hidden;*/
+  	white-space: nowrap;
+}
+
+
+
+#busscheduletimeline{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-right:50px;
+	display:inline-block;
+}
+	#busscheduletimeline img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+#carrefour1T{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#carrefour1T img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+#carrefour2T{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#carrefour2T img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+#madrid1T{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#madrid1T img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+
+
+	#parkT{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#parkT img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+
+
+
+#biennaleT{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#biennaleT img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+
+#positanoT{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#positanoT img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+#wucampusT{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#wucampusT img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+
+	#lindtT{
+	position:relative;
+	top:0px;
+	height:100%;
+	width:auto;
+	float:left;
+	padding-left:100px;
+	padding-right:100px;
+	display:inline-block;
+}
+
+	#lindtT img{
+		height:100%;
+		width:auto;
+		display:inline-block;
+	}
+
+	
+
+/*------------------------------------TIMELINE-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------MAP-------------------------------------*/
+
+
+.topbar{
+		position:absolute;
+		top:0px;
+		left:0px;
+		height:75px;
+		width:100%;
+		background-color:#bcbcbc;
+		z-index:50;
+}
+
+
+			.topbaricons{
+				position:absolute;
+				width:55px;
+				height:55px;
+				left:20px;
+				top:12px;
+				z-index:52;;
+		}
+
+
+				#gridiconM{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:0px;
+					left:100px;
+					opacity:0.7;
+				}		
+				#gridiconM img{
+					width:90%;
+					height:auto;
+				}
+
+				
+
+
+				#timelineiconM{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:10px;
+					opacity:0.7;
+					left:300px;
+				}		
+				#timelineiconM img{
+					width:90%;
+					height:auto;
+				}
+
+
+
+
+				#worldiconM{
+					position:absolute;
+					width:90%;
+					height:100%;
+					top:0px;
+					left:500px;
+					opacity:1;
+				}		
+				#worldiconM img{
+					width:100%;
+					height:auto;
+				}
+
+
+
+.vienna{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background-color:transparent;
+	color:transparent;
+	top:122px;
+	left:1013px;
+	z-index:30;
+}
+
+.venice{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background-color:transparent;
+	color:transparent;
+	top:306px;
+	left:828px;
+	z-index:30;
+}
+
+.florence{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background-color:transparent;
+	color:transparent;
+	top:413px;
+	left:783px;
+	z-index:30;
+}
+
+
+.positano{
+	position:absolute;
+	width:20px;
+	height:20px;
+	background-color:transparent;
+	color:transparent;
+	top:608px;
+	left:924px;
+	z-index:30;
+}
+
+
+
+
+
+#mappic{
+	position:absolute;
+	top:70px;
+	left:0px;
+	height:825px;
+	width:100%;
+	overflow:hidden;
+	z-index:10;
+}
+	#mappic img{
+		height:825px;
+		width:auto;
+	}
+
+/*#black{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:1250px;
+	background-color:black;
+	z-index:3;
+}*/
+
+
+
+/*------------------------------------MAP-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
