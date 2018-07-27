@@ -48,7 +48,10 @@ a:visited {
 	font-style: none;
 }
 
-
+a:hover{
+	color:white;
+	font-style: none;
+}
 
 #scrap1{
 	position:absolute;
