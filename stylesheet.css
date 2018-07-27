@@ -228,42 +228,43 @@ a:hover{
 }
 
 
-.red{
+
+
+
+.averagebutton{
 	position:absolute;
-	width:30px;
+	top:550px;
+	left:50px;
 	height:30px;
-	left:200px;
-	top:10px;
-	z-index:52;
+	width:70px;
 }
-	.red img{
+	.aberagebutton img{
 		width:100%;
-		height:auto;
+		height:100%
 	}
 
-
-.blue{
+.average{
 	position:absolute;
-	width:30px;
-	height:30px;
-	left:200px;
-	top:10px;
-	z-index:52;
+	color:white;
+	font-style:none;
+	font-family: 'Karla', sans-serif;
+	font-size:20px;
+	top:555px;
+	left:55px;
+	height:75px;
+	width:125px;
+
 }
 
-	.blue{
-		width:100%;
-		height:auto;
-	}
 
 
 .averageswindow{
 	position:absolute;
 	width:80%;
 	height:140px;
-	top:120px;
-	z-index:9;
-	left:190px;
+	top:128px;
+	z-index:1;
+	left:198px;
 }
 
 	#averagesbox{
@@ -277,54 +278,11 @@ a:hover{
 	}
 		#averagesbox img{
 			width:100%;
-			height:auto;
+			height:100%;
 		}
 
 
 
-#averagesbox2{
-		position:relative;
-		height:140px;
-		width:140px;
-		top:0px;
-		background-color:#bcbcbc;
-		overflow:hidden;
-		float:left;
-	}
-		#averagesbox2 img{
-			width:100%;
-			height:auto;
-		}
-
-
-#averagesbox3{
-		position:relative;
-		height:140px;
-		width:140px;
-		top:0px;
-		background-color:#bcbcbc;
-		overflow:hidden;
-		float:left;
-	}
-		#averagesbox3 img{
-			width:100%;
-			height:auto;
-		}
-
-
-#averagesbox4{
-		position:relative;
-		height:140px;
-		width:140px;
-		top:0px;
-		background-color:#bcbcbc;
-		overflow:hidden;
-		float:left;
-	}
-		#averagesbox4 img{
-			width:100%;
-			height:auto;
-		}
 
 
 
