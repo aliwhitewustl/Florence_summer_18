@@ -204,6 +204,19 @@
     width:25%;
 }
 
+
+.placetitlecat{
+	position: absolute;
+    top: 250px;
+    left: 800px;
+    font-family: 'Karla', sans-serif;
+    font-size: 75px;
+    color: #898989;
+    font-weight: 700;
+    z-index:50;
+    width:25%;
+}
+
 .banner{
 	position:absolute;
 	top:50px;
@@ -277,9 +290,15 @@ a{
 }
 
 
+.rest6{
+	position:relative;
+	top:6000px;
+}
 
-
-
+.rest7{
+	position:relative;
+	top:7000px;
+}
 
 
 
@@ -298,6 +317,7 @@ a{
     z-index:50;
     width:30%;
 }
+
 
 
 
