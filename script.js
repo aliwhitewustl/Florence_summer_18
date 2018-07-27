@@ -7,12 +7,6 @@ console.log("test");
 
 
 
-$("#gridicon").mouseenter(function(){
-		$(this).fadeTo( "fast", 1.0 );
-});
-$("#gridicon").mouseleave(function(){
-		$(this).fadeTo( "fast", .7 );
-});
 
 
 $("#timelineicon").mouseenter(function(){
@@ -77,12 +71,7 @@ $("#timelineiconM").mouseleave(function(){
 });
 
 
-$("#worldiconM").mouseenter(function(){
-		$(this).fadeTo( "fast", 1.0 );
-});
-$("#worldiconM").mouseleave(function(){
-		$(this).fadeTo( "fast", .7 );
-});
+
 
 
 
@@ -145,6 +134,15 @@ $("#scrap6").click(function(){
 
 
 
+$(".Rscroll").click(function(){
+		$(".collagearea").animate({left: "-=700"}, 1000);
+		$(".Lscroll").fadeTo( "fast", 1.0 );
+});
+
+
+$(".Lscroll").click(function(){
+		$(".collagearea").animate({left: "+=700"}, 1000);
+});
 
 
 
@@ -155,8 +153,107 @@ $("#scrap6").click(function(){
 
 
 
+$(".vienna").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".vienna").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
 
 
+
+$(".venice").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".venice").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+$(".bologna").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".bologna").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+$(".prato").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".prato").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+
+$(".florence").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".florence").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+
+$(".viterbo").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".viterbo").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+
+$(".rome").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".rome").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+$(".naples").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".naples").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+$(".amalficoast").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".amalficoast").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
+
+
+
+
+$(".madrid").mouseenter(function(){
+		$(this).animate({width: "+=20"}, 100);
+});
+
+$(".madrid").mouseleave(function(){
+		$(this).animate({width: "-=20"}, 100);
+});
 
 
 
