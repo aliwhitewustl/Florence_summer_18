@@ -257,4 +257,37 @@ $(".madrid").mouseleave(function(){
 
 
 
+
+
+
+
+
+
+$(".averagebutton").click(function(){
+		$(".averageswindow").fadeTo( "fast", 1 );
+		$(this).animate({background-color: "#ededed"}, 50)
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	});  

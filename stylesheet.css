@@ -233,12 +233,12 @@ a:hover{
 
 .averagebutton{
 	position:absolute;
-	top:550px;
+	top:128px;
 	left:50px;
 	height:30px;
 	width:70px;
 }
-	.aberagebutton img{
+	.averagebutton img{
 		width:100%;
 		height:100%
 	}
@@ -248,7 +248,7 @@ a:hover{
 	color:white;
 	font-style:none;
 	font-family: 'Karla', sans-serif;
-	font-size:20px;
+	font-size:15px;
 	top:555px;
 	left:55px;
 	height:75px;
@@ -263,8 +263,9 @@ a:hover{
 	width:80%;
 	height:140px;
 	top:128px;
-	z-index:1;
+	z-index:50;
 	left:198px;
+	opacity:0;
 }
 
 	#averagesbox{
@@ -303,7 +304,7 @@ a:hover{
 	height:100%;
 	width:140px;
 	top:0px;
-	background-color:#bcbcbc;
+	background-color:#d9d7c5;
 	overflow:hidden;
 	float:left;
 }
@@ -321,7 +322,7 @@ a:hover{
 	width:140px;
 	top:0px;
 	left:0px;
-	background-color:#bcbcbc;
+	background-color:#f3ece6;
 	float:left;
 	overflow:hidden;
 }
@@ -335,7 +336,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9f6a49;
 	float:left;
 	overflow:hidden;
 }
@@ -351,7 +352,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9b6a77;
 	float:left;
 	overflow:hidden;
 }
@@ -367,7 +368,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#c3c39f;
 	float:left;
 	overflow:hidden;
 }
@@ -383,7 +384,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#946368;
 	float:left;
 	overflow:hidden;
 }
@@ -400,7 +401,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9a7b70;
 	float:left;
 	overflow: hidden;
 }
@@ -417,7 +418,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#83813b;
 	float:left;
 	overflow:hidden;
 }
@@ -434,7 +435,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#6e87a4;
 	float:left;
 	overflow:hidden;
 }
@@ -451,7 +452,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#6e87a4;
 	float:left;
 	overflow:hidden;
 }
@@ -470,7 +471,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9b9489;
 	float:left;
 	overflow:hidden;
 }
@@ -487,7 +488,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9a7b70;
 	float:left;
 	overflow:hidden;
 }
@@ -506,7 +507,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#e2e5dd;
 	float:left;
 	overflow:hidden;
 }	
@@ -522,7 +523,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#d9d7c5;
 	float:left;
 	overflow:hidden;
 }
@@ -538,7 +539,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9f6a49;
 	float:left;
 	overflow:hidden;
 }
@@ -554,7 +555,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9a7b70;
 	float:left;
 	overflow:hidden;
 }
@@ -570,7 +571,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#f3ece6;
 	float:left;
 	overflow:hidden;
 }
@@ -586,7 +587,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9b9489;
 	float:left;
 	overflow:hidden;
 }
@@ -602,7 +603,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#83813b;
 	float:left;
 	overflow:hidden;
 }
@@ -618,7 +619,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9b6a77;
 	float:left;
 	overflow:hidden;
 }
@@ -634,7 +635,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#c3c39f;
 	float:left;
 	overflow:hidden;
 }
@@ -651,7 +652,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9f6a49;
 	float:left;
 	overflow:hidden;
 }
@@ -667,7 +668,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#767c8e;
 	float:left;
 	overflow:hidden;
 }
@@ -683,7 +684,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#946368;
 	float:left;
 	overflow:hidden;
 }
@@ -699,7 +700,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#d9d7c5;
 	float:left;
 	overflow:hidden;
 }
@@ -716,7 +717,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9a7b70;
 	float:left;
 	overflow:hidden;
 }
@@ -732,7 +733,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#896f57;
 	float:left;
 	overflow:hidden;
 }
@@ -748,7 +749,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#6e87a4;
 	float:left;
 	overflow:hidden;
 }
@@ -765,7 +766,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9b6a77;
 	float:left;
 	overflow:hidden;
 }
@@ -783,7 +784,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#f5f6ea;
 	float:left;
 	overflow:hidden;
 }
@@ -800,7 +801,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#992737;
 	float:left;
 	overflow:hidden;
 }
@@ -816,7 +817,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#c3c39f;
 	float:left;
 	overflow:hidden;
 }
@@ -832,7 +833,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#e2e5dd;
 	float:left;
 	overflow:hidden;
 }
@@ -849,7 +850,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#495558;
 	float:left;
 	overflow:hidden;
 }
@@ -865,7 +866,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#896f57;
 	float:left;
 	overflow:hidden;
 }
@@ -881,7 +882,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#767c8e;
 	float:left;
 	overflow:hidden;
 }
@@ -897,7 +898,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#992737;
 	float:left;
 	overflow:hidden;
 }
@@ -913,7 +914,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#495558;
 	float:left;
 	overflow:hidden;
 }
@@ -930,7 +931,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#495558;
 	float:left;
 	overflow:hidden;
 }
@@ -948,7 +949,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#d3c8bb;
 	float:left;
 	overflow:hidden;
 }
@@ -964,7 +965,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9b6a77;
 	float:left;
 	overflow:hidden;
 }
@@ -980,7 +981,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#f5f6ea;
 	float:left;
 	overflow:hidden;
 }
@@ -996,7 +997,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9a7b70;
 	float:left;
 	overflow:hidden;
 }
@@ -1012,7 +1013,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#9f6a49;
 	float:left;
 	overflow:hidden;
 }
@@ -1028,7 +1029,7 @@ a:hover{
 	position:relative;
 	height:100%;
 	width:140px;
-	background-color:#bcbcbc;
+	background-color:#d3c8bb;
 	float:left;
 	overflow:hidden;
 }
